@@ -1,4 +1,4 @@
-name: Testing
+name: Testing_arm64
 
 on: [push, pull_request]
 
