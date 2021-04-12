@@ -28,7 +28,7 @@ jobs:
           file: ./coverage.xml # optional
           name: py${{ matrix.python-version }}-${{ matrix.env.TOXENV }}-${{ matrix.os }}
           flags: unittests # optional
-          fail_ci_if_error: true # optional (default = false)
+          fail_ci_if_error: true 
   integration:
     runs-on: ${{ matrix.os }}
     strategy:
